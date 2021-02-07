@@ -91,9 +91,10 @@ if ($.isNode()) {
 
 } else {
   dkdtokenbodyArr.push(token=a90243a88f9881f67898e646704d088c)
-  dkdtokenkeyArr.push({"Accept-Encoding":"br;q=1.0, gzip;q=0.9, deflate;q=0.8","Accept":"*/*","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded; charset=utf-8","Host":"dkd-api.dysdk.com","If-None-Match":""b632d7db658b036d1d8d030d6a41525bdc8e3eb4"","User-Agent":"duokandian/3.0.2 (com.duoyou.duokandian1; build:0; iOS 13.4.1) Alamofire/5.4.0","Accept-Language":"zh-Hans-CN;q=1.0","headerinfo":"eyJ0b2tlbiI6ImE5MDI0M2E4OGY5ODgxZjY3ODk4ZTY0NjcwNGQwODhjIiwidXRkX2lkIjoiNjdiMGNhOTg5MjlkMTg4NmI1NmI2MDVlNjY4YjY0MWQ4NDM4YTgwZSIsImRldmljZV9udW0iOiIxIiwiZGV2aWNlX3R5cGUiOiJpT1MiLCJvcyI6ImlPUyIsImxvbmciOiIiICwibGF0IjoiIiwicmVzb2x1dGlvbiI6IjQxNC4wIiwiYm9vdF90aW1lIjoiMjAyMS0wMi0wNSAxMToxODo0NCArMDAwMCIsInN5c3RlbV92ZXJzaW9uIjoiMTMuNC4xIiwic3lzdGVtX21vZGVsIjoiaU9TIiwiZGV2aWNlX2JyYW5kIjoiQXBwbGUiLCJka2RfdmVyc2lvbiI6IjMuMC4yIiwibmV0d29yayI6IldpZmkiLCJ2ZXJzaW9uY29kZSI6IjgiLCJjaGFubmVsIjoiYXBwbGUifQ==","Content-Length":"38"})
-}
+  dkdtokenkeyArr.push({"Accept-Encoding":"br;q=1.0, gzip;q=0.9, deflate;q=0.8","Accept":"*/*","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded; charset=utf-8","Host":"dkd-api.dysdk.com","If-None-Match":""b632d7db658b036d1d8d030d6a41525bdc8e3eb4"","User-Agent":"duokandian/3.0.2 (com.duoyou.duokandian1; build:0; iOS 13.4.1) Alamofire/5.4.0","Accept-Language":"zh-Hans-CN;q=1.0","headerinfo":"eyJ0b2tlbiI6ImE5MDI0M2E4OGY5ODgxZjY3ODk4ZTY0NjcwNGQwODhjIiwidXRkX2lkIjoiNjdiMGNhOTg5MjlkMTg4NmI1NmI2MDVlNjY4YjY0MWQ4NDM4YTgwZSIsImRldmljZV9udW0iOiIxIiwiZGV2aWNlX3R5cGUiOiJpT1MiLCJvcyI6ImlPUyIsImxvbmciOiIiICwibGF0IjoiIiwicmVzb2x1dGlvbiI6IjQxNC4wIiwiYm9vdF90aW1lIjoiMjAyMS0wMi0wNSAxMToxODo0NCArMDAwMCIsInN5c3RlbV92ZXJzaW9uIjoiMTMuNC4xIiwic3lzdGVtX21vZGVsIjoiaU9TIiwiZGV2aWNlX2JyYW5kIjoiQXBwbGUiLCJka2RfdmVyc2lvbiI6IjMuMC4yIiwibmV0d29yayI6IldpZmkiLCJ2ZXJzaW9uY29kZSI6IjgiLCJjaGFubmVsIjoiYXBwbGUifQ==","Content-Length":"38"}
 
+}
+}
 //////////////////////////////////////////////////////////////////
 
 !(async () => {
