@@ -38,6 +38,7 @@ jobs:
         
           node dkdvideo.js
         env:
+          DKDVD_BODY: ${{ secrets.DKDVD_BODY }}
           DKD_getawardbody: ${{ secrets.DKD_GETAWARDBODY }}
           DKD_getawardbody_index: ${{ secrets.DKD_GETAWARDBODY_INDEX }}
           DKD_dkdtokenbody: ${{ secrets.DKD_DKDTOKENBODY }}
