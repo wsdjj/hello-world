@@ -42,9 +42,12 @@ let getawardbodyVal = "";
 
 let getawardscore = 0;
 
-let bodys = $.getdata("getawardbody");
+//let bodys = $.getdata("getawardbody");
+let bodys = "params=9B77z9Kc/8LpOXqiR7lKz/sG7JK6ilkqwkH9cSBWUnzTILIxMbGczUaAnouJwTUmrCo6lqmiNE4d%2B5m9ZbRHZ359DpxEzM5pd2hTMhE0f2VPWXjJK2esNuu4Y1qcCzzE#params=gnatJ2c0WL7JtdWFskdiDdHGEAPy%2BbG%2BKXzs0/aq3ru6tPrAcJElzQ3NB8IInJ2nFmVPjPJkhlSAkp79dcdo3uHPPait03%2BH5MYy7fllKzY%3D#params=TRArN5h3yMuBhvjb/4tD0jjoU80ennyRXX%2BtgH8pAlhj/lmB1m9RFsmQfd6FdwDNytVpcYc15FojdBN5SBvsxqkClldTooLakWKD1AeH5%2BHuSMfgfQTKbLpJKzDebTfp#params=8nJoa0keqvSCIrNNLQc9QQEAtuUewTWqkzBCJcOm6TrcrSFuSP4my0UGrW%2BltZZGdcJrR/Lx8sbC28PMy%2BYzNDsyOyr5ZWc9Bg0ssuTI4dBIN3Yz9nKGLBDqKqur0IKc#params=gnatJ2c0WL7JtdWFskdiDdHGEAPy%2BbG%2BKXzs0/aq3ru6tPrAcJElzQ3NB8IInJ2n6vrirzPfLnuyEc8B7DhZ5j5Gr3QR8OkC%2BElrCUr4cfPF0jWC3T2rnuNgCVaBKcWm#params=geQFqiG89xmkFFCeFpu6xy9uD2/AZfL1UixphUmTsQMqayIL218V58KK05cyhGe5K4YseaR%2BiPYANyea3%2BSkrlExhEe09/jR/yyLVXVR8dTstnIfzcNy85CTXVfp9eP8#params=gnatJ2c0WL7JtdWFskdiDdHGEAPy%2BbG%2BKXzs0/aq3ru6tPrAcJElzQ3NB8IInJ2nE1Zn4Ht6ONkcHKXvx88x%2B5RNMsgvSaW9LjsAPzoDkgE%3D#params=geQFqiG89xmkFFCeFpu6x7lKe/avy1fjf4iqsvgPyiy3ZiK1DMK8hJoYM63GZKGB6/qqAHemqVNKuyJGTdKz0BFzdRoiWeLP4gBFznEBusimVTbtpjTVc2ENlXylOdKv#params=gnatJ2c0WL7JtdWFskdiDdHGEAPy%2BbG%2BKXzs0/aq3ru6tPrAcJElzQ3NB8IInJ2ne10ibcOkcUzBfixN3X%2BZ0PT4OOKIxBk7NnYslfkiKlvyqE1sZa81vNo7BYXcxTGO#params=geQFqiG89xmkFFCeFpu6x7qZETH7Tb%2B2%2BEPnRD4SFAqz5C5IsFIwx3khj4Opbdz6v95ri1IR42B9MycPqgdEnbNKnvj5C2F0In4k2908tKN/1S1/QF0x5jfYSdauq9eZ"
 
-let indexLast = $.getdata('getawardbody_index');
+//let indexLast = $.getdata('getawardbody_index');
+let indexLast = '1'
+
 
 if ($.isNode()) {
       bodys = process.env.DKD_getawardbody;
@@ -87,8 +90,8 @@ if ($.isNode()) {
 
 
 } else {
-  dkdtokenbodyArr.push($.getdata('dkdtokenbody'));
-  dkdtokenkeyArr.push($.getdata('dkdtokenkey'));
+  dkdtokenbodyArr.push(token=a90243a88f9881f67898e646704d088c);
+  dkdtokenkeyArr.push({"Accept-Encoding":"br;q=1.0, gzip;q=0.9, deflate;q=0.8","Accept":"*/*","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded; charset=utf-8","Host":"dkd-api.dysdk.com","If-None-Match":""b632d7db658b036d1d8d030d6a41525bdc8e3eb4"","User-Agent":"duokandian/3.0.2 (com.duoyou.duokandian1; build:0; iOS 13.4.1) Alamofire/5.4.0","Accept-Language":"zh-Hans-CN;q=1.0","headerinfo":"eyJ0b2tlbiI6ImE5MDI0M2E4OGY5ODgxZjY3ODk4ZTY0NjcwNGQwODhjIiwidXRkX2lkIjoiNjdiMGNhOTg5MjlkMTg4NmI1NmI2MDVlNjY4YjY0MWQ4NDM4YTgwZSIsImRldmljZV9udW0iOiIxIiwiZGV2aWNlX3R5cGUiOiJpT1MiLCJvcyI6ImlPUyIsImxvbmciOiIiICwibGF0IjoiIiwicmVzb2x1dGlvbiI6IjQxNC4wIiwiYm9vdF90aW1lIjoiMjAyMS0wMi0wNSAxMToxODo0NCArMDAwMCIsInN5c3RlbV92ZXJzaW9uIjoiMTMuNC4xIiwic3lzdGVtX21vZGVsIjoiaU9TIiwiZGV2aWNlX2JyYW5kIjoiQXBwbGUiLCJka2RfdmVyc2lvbiI6IjMuMC4yIiwibmV0d29yayI6IldpZmkiLCJ2ZXJzaW9uY29kZSI6IjgiLCJjaGFubmVsIjoiYXBwbGUifQ==","Content-Length":"38"});
 }
 
 //////////////////////////////////////////////////////////////////
