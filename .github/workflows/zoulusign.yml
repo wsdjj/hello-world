@@ -47,7 +47,8 @@ jobs:
           CARDBODY: ${{ secrets. CARDBODY }}
           drinkbody: ${{ secrets. drinkbody }}
           memberbody: ${{ secrets. memberbody }}
-
+          IBOXPAYBODY: ${{ secrets. IBOXPAYBODY }}
+          
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
