@@ -1,4 +1,4 @@
-name: QQ阅读
+name: 东方头条
 
 on:
   workflow_dispatch:
