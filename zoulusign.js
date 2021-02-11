@@ -139,11 +139,11 @@ if ($.isNode())
  //   {
 //        xiaomuyubody = process.env.xiaomuyubody.split()
 //    };
-  ////  if (process.env.TURNTABLRURL && process.env. xiaomuyubody.indexOf('#') > -1)
+  ////  if (process.env.xiaomuyubody && process.env. xiaomuyubody.indexOf('#') > -1)
  //   {
  //       turntableurl = process.env. xiaomuyubody.split('#');
 //    }
-  //  else if (process.env.TURNTABLRURL && process.env. xiaomuyubody.split('\n')
+  //  else if (process.env.xiaomuyubody && process.env. xiaomuyubody.split('\n')
  //       .length > 0)
  //   {
  //       turntableurl = process.env. xiaomuyubody.split('\n');
