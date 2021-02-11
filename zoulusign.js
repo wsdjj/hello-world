@@ -139,18 +139,18 @@ if ($.isNode())
  //   {
 //        xiaomuyubody = process.env.xiaomuyubody.split()
 //    };
-  ////  if (process.env.TURNTABLRURL && process.env.TURNTABLRURL.indexOf('#') > -1)
+  ////  if (process.env.TURNTABLRURL && process.env. xiaomuyubody.indexOf('#') > -1)
  //   {
- //       turntableurl = process.env.TURNTABLRURL.split('#');
+ //       turntableurl = process.env. xiaomuyubody.split('#');
 //    }
-  //  else if (process.env.TURNTABLRURL && process.env.TURNTABLRURL.split('\n')
+  //  else if (process.env.TURNTABLRURL && process.env. xiaomuyubody.split('\n')
  //       .length > 0)
  //   {
- //       turntableurl = process.env.TURNTABLRURL.split('\n');
+ //       turntableurl = process.env. xiaomuyubody.split('\n');
  //   }
  //   else
  //   {
- //       turntableurl = process.env.TURNTABLRURL.split()
+ //       turntableurl = process.env. xiaomuyubody.split()
  //   };
 //    if (process.env.TURNTABLRHEADER && process.env.TURNTABLRHEADER.indexOf('#') > -1)
  //   {
@@ -177,7 +177,7 @@ if ($.isNode())
 //    {
 //        doubleheader = process.env.DOUBLEHEADER.split()
 //    };
-//    if (process.env.CARDBODY && process.env.TURNTABLRURL.indexOf('#') > -1)
+//    if (process.env.CARDBODY && process.env.xiaomuyubody.indexOf('#') > -1)
   //  {
  //       Cardbody = process.env.CARDBODY.split('#');
 //    }
