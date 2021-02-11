@@ -280,6 +280,12 @@ if ($.isNode())
     //            memberbodyArr.push(memberbody[item])
   //          }
      //   });
+   
+
+    console.log(`============ 脚本执行-国际标准时间(UTC)：${new Date().toLocaleString()}  =============\n`);
+}
+else
+{
     xiaomuyuheaderArr.push('Cookie":"PHPSESSID=8e40d397c4a60669146fc7f23314e2a1; CNZZDATA1277228569=60070233-1612933570-%7C1612933570; UM_distinctid=1778a620483389-0614508e9327cc8-3c176950-5a900-1778a620484841","Accept":"*/*","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Accept-Encoding":"gzip, deflate, br","Host":"api.xiaomuyu888.com","User-Agent":"YLZ/1.2.18 (iPhone; iOS 13.4.1; Scale/2.00)","Content-Length":"94","Accept-Language":"zh-Hans-CN;q=1"}')
     xiaomuyubodyArr.push('device=ios&imei=e03fbecec41e46f300dd8e4d24c05bcdeeb26b2d&source=ios&uid=3932239&version=1.2.18')
     turntableurlArr.push('http://api.xiaomuyu888.com/api/turntable/turntableCoin?imei=e03fbecec41e46f300dd8e4d24c05bcdeeb26b2d&source=ios&device=ios&version=1.2.18')
@@ -288,19 +294,6 @@ if ($.isNode())
     CardbodyArr.push('device=ios&id=4&imei=e03fbecec41e46f300dd8e4d24c05bcdeeb26b2d&source=ios&uid=3932239&version=1.2.18')
     drinkbodyArr.push('coin=3&cupid=5&device=ios&double=0&imei=e03fbecec41e46f300dd8e4d24c05bcdeeb26b2d&source=ios&uid=3932239&version=1.2.18')
     memberbodyArr.push('device=ios&imei=e03fbecec41e46f300dd8e4d24c05bcdeeb26b2d&source=ios&step=0&uid=3932239&version=1.2.18')
-
-    console.log(`============ 脚本执行-国际标准时间(UTC)：${new Date().toLocaleString()}  =============\n`);
-}
-else
-{
-    xiaomuyuheaderArr.push($.getdata("xiaomuyuheader"));
-    xiaomuyubodyArr.push($.getdata("xiaomuyubody"));
-    turntableurlArr.push($.getdata("turntableurl"));
-    turntableheaderArr.push($.getdata("turntableheader"));
-    doubleheaderArr.push($.getdata("doubleheader"));
-    CardbodyArr.push($.getdata("Cardbody"));
-    drinkbodyArr.push($.getdata("drinkbody"));
-    memberbodyArr.push($.getdata("memberbody"));
     if ("ZLSTEP")
     {
         step = $.getval("ZLSTEP") || '1';
