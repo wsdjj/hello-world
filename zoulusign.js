@@ -276,7 +276,10 @@ if ($.isNode())
 }
 else
 {
-    xiaomuyuheaderArr.push($.getdata("xiaomuyuheader"));
+    xiaomuyuheaderArr.push($.getdata("xiaomuyuheader"))
+              xiaomuyuheaderArr.push($.getdata("xiaomuyuheader"));
+280
+
     xiaomuyubodyArr.push($.getdata("xiaomuyubody"));
     turntableurlArr.push($.getdata("turntableurl"));
     turntableheaderArr.push($.getdata("turntableheader"));
