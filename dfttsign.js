@@ -83,7 +83,9 @@ const bonusodyArr = [];
 
 
 
-{"Accept":"*/*","Accept-Encoding":"gzip, deflate, br","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"task-center.dftoutiao.com","User-Agent":"DFTT/2.6.3 (iPhone; iOS 13.4.1; Scale/2.00)","Content-Length":"516","Accept-Language":"zh-Hans-CN;q=1"}
+//let dftoutiaoheader = $.getdata('dftoutiaoheader');
+let dftoutiaoheader = '{"Accept":"*/*","Accept-Encoding":"gzip, deflate, br","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"task-center.dftoutiao.com","User-Agent":"DFTT/2.6.3 (iPhone; iOS 13.4.1; Scale/2.00)","Content-Length":"516","Accept-Language":"zh-Hans-CN;q=1"}'
+
 let dftoutiaobody = $.getdata('dftoutiaobody');
 //let dftoubody = $.getdata('dftoubody');
 let dftoubody = 'accid=867336742&androidId=93659E7A-792B-42D5-BFD2-EF38E9D133B7&city=%E5%98%89%E5%85%B4%E5%B8%82&cqid=AppStore&device=iPhone%2011&device_brand=null&ime=90E29C52-8E19-4525-9129-BA485D54D2D0&iswifi=wifi&lt=UmtQS0NRaWhGdUR5eURYNWh6Ym5HMUNUdWNPTzBhUkw2U0hxK0xvYnhKRlI4L05HMEk5T2dEM0p6aGhPV0cyNnp4VGVzVGtKRkc2VDlCaVdoaDZ0N2c9PQ%3D%3D&mobile=13586387669&oem=DFTT&os=ios&os_version=iOS%2013.4.1&phonenum=13586387669&position=%E6%B5%99%E6%B1%9F&qid=AppStore210208&softname=DFTTIOS&softtype=TouTiao&ttaccid=867336742&ver=2.6.3'
