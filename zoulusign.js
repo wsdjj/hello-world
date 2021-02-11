@@ -111,176 +111,175 @@ let drinkbody = '"coin=3&cupid=5&device=ios&double=0&imei=e03fbecec41e46f300dd8e
 let memberbody = 'device=ios&imei=e03fbecec41e46f300dd8e4d24c05bcdeeb26b2d&source=ios&step=0&uid=3932239&version=1.2.18'
 
 if ($.isNode())
-//{
-  //  if (process.env.XIAOMUYUHEADER && process.env.XIAOMUYUHEADER.indexOf('#') > -1)
- //   {
- //       xiaomuyuheader = process.env.XIAOMUYUHEADER.split('#');
- //       console.log(`您选择的是用"#"隔开\n`)
- //   }
-//////    else if (process.env.XIAOMUYUHEADER && process.env.XIAOMUYUHEADER.indexOf('\n') > -1)
- //////   {
- ////       xiaomuyuheader = process.env.XIAOMUYUHEADER.split('\n');
-//        console.log(`您选择的是用换行隔开\n`)
-//    }
- //   else
- //////////   {
-//        xiaomuyuheader = process.env.XIAOMUYUHEADER.split()
-////////////    };
- //   if (process.env.XIAOMUYUBODY && process.env.XIAOMUYUBODY.indexOf('#') > -1)
- //////   {
- ////////       xiaomuyubody = process.env.XIAOMUYUBODY.split('#');
- ////   }
-//////    else if (process.env.XIAOMUYUBODY && process.env.XIAOMUYUBODY.split('\n')
-  //      .length > 0)
-//    {
- //       xiaomuyubody = process.env.XIAOMUYUBODY.split('\n');
-//    }
- ////   else
- //   {
-//        xiaomuyubody = process.env.xiaomuyubody.split()
-//    };
-  ////  if (process.env.xiaomuyubody && process.env. xiaomuyubody.indexOf('#') > -1)
- //   {
- //       turntableurl = process.env. xiaomuyubody.split('#');
-//    }
-  //  else if (process.env.xiaomuyubody && process.env. xiaomuyubody.split('\n')
- //       .length > 0)
- //   {
- //       turntableurl = process.env. xiaomuyubody.split('\n');
- //   }
- //   else
- //   {
- //       turntableurl = process.env. xiaomuyubody.split()
- //   };
-//    if (process.env.TURNTABLRHEADER && process.env.TURNTABLRHEADER.indexOf('#') > -1)
- //   {
-//        turntableheader = process.env.TURNTABLRHEADER.split('#');
-  //  }
-  //  else if (process.env.TURNTABLRHEADER && process.env.TURNTABLRHEADER.indexOf('\n') > -1)
- //   {
-  //      turntableheader = process.env.TURNTABLRHEADER.split('\n');
-  //  }
-  //  else
-  //  {
-  //      turntableheader = process.env.TURNTABLRHEADER.split()
-//    };
- //   if (process.env.DOUBLEHEADER && process.env.DOUBLEHEADER.indexOf('#') > -1)
-//    {
-//        doubleheader = process.env.DOUBLEHEADER.split('#');
- //   }
-//    else if (process.env.DOUBLEHEADER && process.env.DOUBLEHEADER.split('\n')
-//        .length > 0)
-//    {
-//        doubleheader = process.env.DOUBLEHEADER.split('\n');
-//    }
-//    else
-//    {
-//        doubleheader = process.env.DOUBLEHEADER.split()
-//    };
-//    if (process.env.CARDBODY && process.env.xiaomuyubody.indexOf('#') > -1)
-  //  {
- //       Cardbody = process.env.CARDBODY.split('#');
-//    }
-//    else if (process.env.CARDBODY && process.env.CARDBODY.split('\n')
- //       .length > 0)
-//    {
-//        Cardbody = process.env.CARDBODY.split('\n');
- //   }
-//    else
- //   {
-  ////      Cardbody = process.env.CARDBODY.split()
- //   };
-//    if (process.env.MEMBERBODY && process.env.MEMBERBODY.indexOf('#') > -1)
-//    {
- //////       memberbody = process.env.MEMBERBODY.split('#');
- //   }
- //////   else if (process.env.MEMBERBODY && process.env.MEMBERBODY.indexOf('\n') > -1)
- //   {
- //////       memberbody = process.env.MEMBERBODY.split('\n');
- //   }
-////    else
- //   {
-   //     memberbody = process.env.MEMBERBODY.split()
- //   };
-//    if (process.env.DRINKBODY && process.env.DRINKBODY.indexOf('#') > -1)
- //   {
- //       drinkbody = process.env.DRINKBODY.split('#');
- //   }
- //   else if (process.env.DRINKBODY && process.env.DRINKBODY.split('\n')
- //       .length > 0)
-//    {
-////        drinkbody = process.env.DRINKBODY.split('\n');
-  //  }
-//    else
- //   {
-//        drinkbody = process.env.DRINKBODY.split()
- //   };
-//
- ////   Object.keys(xiaomuyuheader)
-//        .forEach((item) =>
-  //      {
- //           if (xiaomuyuheader[item])
-    //        {
- //               xiaomuyuheaderArr.push(xiaomuyuheader[item])
- //           }
- //       });
- //   Object.keys(xiaomuyubody)
-//        .forEach((item) =>
- //       {
-//            if (xiaomuyubody[item])
-  //          {
-//                xiaomuyubodyArr.push(xiaomuyubody[item])
-  //          }
-//        });
-  //  Object.keys(turntableurl)
- //////       .forEach((item) =>
-    //    {
-     //       if (turntableurl[item])
-////            {
-  //              turntableurlArr.push(turntableurl[item])
- //           }
-//        });
-  //  Object.keys(turntableheader)
- //       .forEach((item) =>
-  //      {
-   ////         if (turntableheader[item])
-   //         {
-//                turntableheaderArr.push(turntableheader[item])
-  //          }
- //       });
- ////   Object.keys(doubleheader)
- //       .forEach((item) =>
-//        {
- //           if (doubleheader[item])
- //   //        {
-         //       doubleheaderArr.push(doubleheader[item])
- //           }
- //       });
- //   Object.keys(Cardbody)
- //       .forEach((item) =>
- //       {
-    //        if (Cardbody[item])
-  //          {
-//                CardbodyArr.push(Cardbody[item])
- //           }
-//        });
- //   Object.keys(drinkbody)
-   //     .forEach((item) =>
-  //      {
- //           if (drinkbody[item])
- //           {
-  //              drinkbodyArr.push(drinkbody[item])
- //           }
-   //     });
- //   Object.keys(memberbody)
- //////       .forEach((item) =>
- //       {
-   ////         if (memberbody[item])
-   //         {
-    //            memberbodyArr.push(memberbody[item])
-  //          }
-     //   });
-   
+{
+    if (process.env.XIAOMUYUHEADER && process.env.XIAOMUYUHEADER.indexOf('#') > -1)
+    {
+        xiaomuyuheader = process.env.XIAOMUYUHEADER.split('#');
+        console.log(`您选择的是用"#"隔开\n`)
+    }
+    else if (process.env.XIAOMUYUHEADER && process.env.XIAOMUYUHEADER.indexOf('\n') > -1)
+    {
+        xiaomuyuheader = process.env.XIAOMUYUHEADER.split('\n');
+        console.log(`您选择的是用换行隔开\n`)
+    }
+    else
+    {
+        xiaomuyuheader = process.env.XIAOMUYUHEADER.split()
+    };
+    if (process.env.XIAOMUYUBODY && process.env.XIAOMUYUBODY.indexOf('#') > -1)
+    {
+        xiaomuyubody = process.env.XIAOMUYUBODY.split('#');
+    }
+    else if (process.env.XIAOMUYUBODY && process.env.XIAOMUYUBODY.split('\n')
+        .length > 0)
+    {
+        xiaomuyubody = process.env.XIAOMUYUBODY.split('\n');
+    }
+    else
+    {
+        xiaomuyubody = process.env.IBOXPAYBODY.split()
+    };
+    if (process.env.TURNTABLRURL && process.env.TURNTABLRURL.indexOf('#') > -1)
+    {
+        turntableurl = process.env.TURNTABLRURL.split('#');
+    }
+    else if (process.env.TURNTABLRURL && process.env.TURNTABLRURL.split('\n')
+        .length > 0)
+    {
+        turntableurl = process.env.TURNTABLRURL.split('\n');
+    }
+    else
+    {
+        turntableurl = process.env.TURNTABLRURL.split()
+    };
+    if (process.env.TURNTABLRHEADER && process.env.TURNTABLRHEADER.indexOf('#') > -1)
+    {
+        turntableheader = process.env.TURNTABLRHEADER.split('#');
+    }
+    else if (process.env.TURNTABLRHEADER && process.env.TURNTABLRHEADER.indexOf('\n') > -1)
+    {
+        turntableheader = process.env.TURNTABLRHEADER.split('\n');
+    }
+    else
+    {
+        turntableheader = process.env.TURNTABLRHEADER.split()
+    };
+    if (process.env.DOUBLEHEADER && process.env.DOUBLEHEADER.indexOf('#') > -1)
+    {
+        doubleheader = process.env.DOUBLEHEADER.split('#');
+    }
+    else if (process.env.DOUBLEHEADER && process.env.DOUBLEHEADER.split('\n')
+        .length > 0)
+    {
+        doubleheader = process.env.DOUBLEHEADER.split('\n');
+    }
+    else
+    {
+        doubleheader = process.env.DOUBLEHEADER.split()
+    };
+    if (process.env.CARDBODY && process.env.TURNTABLRURL.indexOf('#') > -1)
+    {
+        Cardbody = process.env.CARDBODY.split('#');
+    }
+    else if (process.env.CARDBODY && process.env.CARDBODY.split('\n')
+        .length > 0)
+    {
+        Cardbody = process.env.CARDBODY.split('\n');
+    }
+    else
+    {
+        Cardbody = process.env.CARDBODY.split()
+    };
+    if (process.env.MEMBERBODY && process.env.MEMBERBODY.indexOf('#') > -1)
+    {
+        memberbody = process.env.MEMBERBODY.split('#');
+    }
+    else if (process.env.MEMBERBODY && process.env.MEMBERBODY.indexOf('\n') > -1)
+    {
+        memberbody = process.env.MEMBERBODY.split('\n');
+    }
+    else
+    {
+        memberbody = process.env.MEMBERBODY.split()
+    };
+    if (process.env.DRINKBODY && process.env.DRINKBODY.indexOf('#') > -1)
+    {
+        drinkbody = process.env.DRINKBODY.split('#');
+    }
+    else if (process.env.DRINKBODY && process.env.DRINKBODY.split('\n')
+        .length > 0)
+    {
+        drinkbody = process.env.DRINKBODY.split('\n');
+    }
+    else
+    {
+        drinkbody = process.env.DRINKBODY.split()
+    };
+
+    Object.keys(xiaomuyuheader)
+        .forEach((item) =>
+        {
+            if (xiaomuyuheader[item])
+            {
+                xiaomuyuheaderArr.push(xiaomuyuheader[item])
+            }
+        });
+    Object.keys(xiaomuyubody)
+        .forEach((item) =>
+        {
+            if (xiaomuyubody[item])
+            {
+                xiaomuyubodyArr.push(xiaomuyubody[item])
+            }
+        });
+    Object.keys(turntableurl)
+        .forEach((item) =>
+        {
+            if (turntableurl[item])
+            {
+                turntableurlArr.push(turntableurl[item])
+            }
+        });
+    Object.keys(turntableheader)
+        .forEach((item) =>
+        {
+            if (turntableheader[item])
+            {
+                turntableheaderArr.push(turntableheader[item])
+            }
+        });
+    Object.keys(doubleheader)
+        .forEach((item) =>
+        {
+            if (doubleheader[item])
+            {
+                doubleheaderArr.push(doubleheader[item])
+            }
+        });
+    Object.keys(Cardbody)
+        .forEach((item) =>
+        {
+            if (Cardbody[item])
+            {
+                CardbodyArr.push(Cardbody[item])
+            }
+        });
+    Object.keys(drinkbody)
+        .forEach((item) =>
+        {
+            if (drinkbody[item])
+            {
+                drinkbodyArr.push(drinkbody[item])
+            }
+        });
+    Object.keys(memberbody)
+        .forEach((item) =>
+        {
+            if (memberbody[item])
+            {
+                memberbodyArr.push(memberbody[item])
+            }
+        });
 
     console.log(`============ 脚本执行-国际标准时间(UTC)：${new Date().toLocaleString()}  =============\n`);
 }
