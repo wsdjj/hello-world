@@ -12,14 +12,14 @@
 定时建议10分钟左右自己设置
 =========================================
 一共6个cookie 一共8个Secrets 多账号换行
-  <>            <>  XIAOMUYUHEADER
-  <>            <>  IBOXPAYBODY
-  <>            <>  TURNTABLRURL
-  <>            <>  TURNTABLRHEADER
-  <>            <>  DOUBLEHEADER
-  <>            <>  CARDBODY
-  <>            <>  MEMBERBODY
-  <>            <>  DRINKBODY
+  <> xiaomuyuheader        <>  XIAOMUYUHEADER
+  <>  IBOXPAYBODY          <>  IBOXPAYBODY
+  <>  turntableurl          <>  TURNTABLRURL
+  <>  turntableheader        <>  TURNTABLRHEADER
+  <>  doubleheader          <>  DOUBLEHEADER
+  <>  Cardbody          <>  CARDBODY
+  <>  memberbody          <>  MEMBERBODY
+  <>  drinkbody          <>  DRINKBODY
 =========================================
 surge:本地
 签到获取ck
