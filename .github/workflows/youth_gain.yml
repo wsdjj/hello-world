@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     env:
-        YOUTH_START: ${{ secrets.YOUTH_START }}
-        YOUTH_END: ${{ secrets.YOUTH_END }}
+        youth_banner: ${{ secrets.youth_banner }}
+    
     steps:
       - name: Checkout
         run: |
@@ -28,7 +28,7 @@ jobs:
           cd ~/Scripts
           npm install
       - name: '运行 【中青看点浏览赚任务】'
-        if: env.YOUTH_START
+        if: env.youth_banner
         run: |
           cd ~/Scripts
           node Task/youth_gain.js
