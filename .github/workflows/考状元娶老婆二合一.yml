@@ -29,7 +29,8 @@ jobs:
           node qlp.js
           
         env:    
-        
+          QLPHD: ${{ secrets.QLPHD }}
+          KZYHD: ${{ secrets.KZYHD }}
        
          
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
