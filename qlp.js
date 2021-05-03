@@ -49,30 +49,12 @@ let qlphd = $.getdata('qlphd')
 let kzyhd = $.getdata('kzyhd')
 let tx = 1  //数字改为1运行脚本可自动提现。建议手动运行。需要提现的时候再改
 if ($.isNode()) {
-	   if (process.env.QLPHD && process.env.QLPHD.indexOf('\n') > -1) {
-	   qlphdArr = process.env.QLPHD.split('\n');
-	   console.log(`您选择的是用换行隔开\n`)
-	  } else {
-	   qlphdArr = process.env.QLPHD.split()
-	  };
-	
-	  if (process.env.KZYHD && process.env.KZYHD.indexOf('\n') > -1) {
-	   kzyhdArr = process.env.KZYHD.split('\n');
-	   console.log(`您选择的是用换行隔开\n`)
-	  } else {
-	   kzyhdArr = process.env.KZYHD.split()
-	  };
-	
-	    console.log(`============ 脚本执行-国际标准时间(UTC)：${new Date().toLocaleString()}  =============\n`)
-	    console.log(`============ 脚本执行-北京时间(UTC+8)：${new Date(new Date().getTime() + 8 * 60 * 60 * 1000).toLocaleString()}  =============\n`)
-	 }else {qlphdArr.push($.getdata('qlphd'))
-	    kzyhdArr.push($.getdata('kzyhd'))
-	    let qlpcount = ($.getval('qlpcount') || '1');
-	  for (let i = 2; i <= qlpcount; i++) {
-	    qlphdArr.push($.getdata(`qlphd${i}`))
-	    kzyhdArr.push($.getdata(`kzyhd${i}`))
-	  }
-	}
+	qlphd = process.env.qlphd
+	kzyhd = process.env.kzyhd
+
+    console.log(`============ 脚本执行-国际标准时间(UTC)：${new Date().toLocaleString()}  =============\n`)
+    console.log(`============ 脚本执行-北京时间(UTC+8)：${new Date(new Date().getTime() + 8 * 60 * 60 * 1000).toLocaleString()}  =============\n`)
+ }
 
 
 !(async () => {
