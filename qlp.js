@@ -48,6 +48,7 @@ let times = Math.round(Date.now() / 1000)
 let qlphd = $.getdata('qlphd')
 let kzyhd = $.getdata('kzyhd')
 let tx = 1  //数字改为1运行脚本可自动提现。建议手动运行。需要提现的时候再改
+if ($.isNode()) {
    if (process.env.qlphd && process.env.qlphd.indexOf('\n') > -1) {
    qlphdArr = process.env.qlphd.split('\n');
    console.log(`您选择的是用换行隔开\n`)
