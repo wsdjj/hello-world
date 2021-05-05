@@ -43,25 +43,28 @@ hostname = ibestfanli.com
 const $ = new Env('考状元娶老婆二合一');
 let status;
 status = (status = ($.getval("qlpstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
-const qlphdArr = [],kzyhdArr = [],qlpcount = ''
+let qlphdArr = [],kzyhdArr = [],qlpcount = ''
 let times = Math.round(Date.now() / 1000)
 let qlphd = $.getdata('qlphd')
 let kzyhd = $.getdata('kzyhd')
 let tx = 1  //数字改为1运行脚本可自动提现。建议手动运行。需要提现的时候再改
 if ($.isNode()) {
-	qlphd = process.env.qlphd
-	kzyhd = process.env.kzyhd
+   if (process.env.QLPHD && process.env.QLPHD.indexOf('\n') > -1) {
+   xyzdurlArr = process.env.QLPHD.split('\n');
+   console.log(`您选择的是用换行隔开\n`)
+  } else {
+   xyzdurlArr = process.env.QLPHD.split()
+  };
+  if (process.env.KZYHD && process.env.KZYHD.indexOf('\n') > -1) {
+   xyzdhdArr = process.env.KZYHD.split('\n');
+   console.log(`您选择的是用换行隔开\n`)
+  } else {
+   xyzdhdArr = process.env.KZYHD.split()
+  };
 
     console.log(`============ 脚本执行-国际标准时间(UTC)：${new Date().toLocaleString()}  =============\n`)
     console.log(`============ 脚本执行-北京时间(UTC+8)：${new Date(new Date().getTime() + 8 * 60 * 60 * 1000).toLocaleString()}  =============\n`)
- }
-
-
-!(async () => {
-  if (typeof $request !== "undefined") {
-    await qlpck()
-   
-  } else {
+ } else {
     qlphdArr.push($.getdata('qlphd'))
     kzyhdArr.push($.getdata('kzyhd'))
     let qlpcount = ($.getval('qlpcount') || '1');
@@ -69,6 +72,14 @@ if ($.isNode()) {
     qlphdArr.push($.getdata(`qlphd${i}`))
     kzyhdArr.push($.getdata(`kzyhd${i}`))
   }
+}
+
+!(async () => {
+if (!xyzdhdArr[0]) {
+    $.msg($.name, '【提示】请先获取一cookie')
+    return;
+  }
+ 
     console.log(`------------- 共${qlphdArr.length}个账号-------------\n`)
       for (let i = 0; i < qlphdArr.length; i++) {
         if (qlphdArr[i]) {
