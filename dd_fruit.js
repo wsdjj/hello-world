@@ -9,9 +9,6 @@ docker环境变量名:DD_TOKEN,多账号换行或英文逗号(,)隔开
 10 0,8,12,18 * * * https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_fruit.js
 
 */
-dd_fruit.js
-
-//*/
 
 let tokens = ['4yLt3qznCBq_R539A82nWQ3yI6mKTck78C0BMpnP8_0kzDluBDEMRcG7vJgYfImi2OJtvIyXRAZsOBr03Q24o8rqwRaF33QTxm5UM3anPKRlbKdaxgpFHmO0mcYelIwdFBhPF89UX0sp-Yj0rmm8_nd36sHP1-_3y50KSes03qg2uzKHhxvvFM3jmH7knAvj42o_KZ1_AQAA__8='];//nodejs填写此处['tk1','tk2']
 
