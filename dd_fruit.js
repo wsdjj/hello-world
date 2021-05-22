@@ -10,7 +10,7 @@ docker环境变量名:DD_TOKEN,多账号换行或英文逗号(,)隔开
 
 */
 
-let tokens = ['4yLt3qznCBq_R539A82nWQ3yI6mKTck78C0BMpnP8_0kzDluBDEMRcG7vJgYfImi2OJtvIyXRAZsOBr03Q24o8rqwRaF33QTxm5UM3anPKRlbKdaxgpFHmO0mcYelIwdFBhPF89UX0sp-Yj0rmm8_nd36sHP1-_3y50KSes03qg2uzKHhxvvFM3jmH7knAvj42o_KZ1_AQAA__8='];//nodejs填写此处['tk1','tk2']
+let tokens = ['kAEd6Owj0vm-Mb_fwR94ox0MPqVOzCOY4Rq3VUiWy_4kzDlqxEAQRuG7vLgQf_XelTr3HbzIS9IGG0di7j5IEz54fAdLBHnTJozlhBsrES5JxsqE9zqrah-leOvGKoS3NKs08tmV4OkZ44UA45VIc6pLudSek5rxTkxjJw7-fv5_33ZCN-PjorynclGfBJ7raHn01ibG14P8Pvd7AAAA__8='];//nodejs填写此处['tk1','tk2']
 
 const $ = new API("dd_fruit");
 try {
